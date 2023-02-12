@@ -1,15 +1,23 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'Log.dart';
-import 'button.dart';
 
 
-class Register extends StatelessWidget {
 
+class Register extends StatefulWidget {
+
+  @override
+  State<Register> createState() => _RegisterState();
+}
+
+class _RegisterState extends State<Register> {
   TextEditingController fname=TextEditingController();
+
   TextEditingController lname=TextEditingController();
+
   TextEditingController email=TextEditingController();
+
   TextEditingController pass=TextEditingController();
+
   TextEditingController confirmpass=TextEditingController();
 
   @override
@@ -131,5 +139,4 @@ class Register extends StatelessWidget {
 
     );
   }
-
-  }
+}

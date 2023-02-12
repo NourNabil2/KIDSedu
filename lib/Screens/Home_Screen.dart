@@ -12,19 +12,36 @@ import 'numspage.dart';
 
 
 class Home extends StatefulWidget {
+  Home({this.email});
+
+final email;
   // const Home({Key? key}) : super(key: key);
 
+
   @override
-  State<Home> createState() => _HomeState();
+  State<Home> createState() => _HomeState( email: email);
 }
 
 class _HomeState extends State<Home> {
+  void initState()
+  {
+    super.initState();
+
+    setState(() {
+      email;
+
+
+    });
+  }
+  _HomeState({ this.email}){}
+String email='';
   Future<void> player(int n)  async {
     final player = AudioPlayer();
     await player.play(
         AssetSource('note$n.wav')
     );
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -60,8 +77,8 @@ class _HomeState extends State<Home> {
                 ),
                 currentAccountPictureSize: Size(50, 50 ),
                 currentAccountPicture: CircleAvatar(backgroundImage:AssetImage('images/kid.jpg'), ),
-                accountEmail: Text('kid@email.com' ,style: TextStyle(color: Colors.black , fontWeight: FontWeight.bold)),
-                accountName: Text('Kid\'s name',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+                accountEmail: Text('$email' ,style: TextStyle(color: Colors.black , fontWeight: FontWeight.bold)),
+                accountName: Text('${email.split('@')[0]}',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
               ),
             ),
 
