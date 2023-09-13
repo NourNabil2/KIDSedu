@@ -14,7 +14,7 @@ Widget txt1({String name,double font=22,Color color=Colors.black})
 }
 
 
-Widget  btn1({@required String name,@required Function function,})
+Widget  btn1({@required String name,required Function function,})
 {
  return MaterialButton(onPressed: function,
    color: Colors.cyan,
