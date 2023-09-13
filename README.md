@@ -1,20 +1,33 @@
-# kideo
+# 👶🔠 KIDSedu - Education app for kids
 
-A new Flutter project.
+An application to teach children the letters and numbers to pronounce and write them using sounds and arithmetic questions to facilitate learning for children.
 
-## Getting Started
+Don't forget to star⭐ the repo if you like what you see😉.
 
-This project is a starting point for a Flutter application.
+   ## Project Status
+   _Complete_
+   
+# 📸 Screenshots
+The screenshots below are taken on a android emulator.
 
-A few resources to get you started if this is your first Flutter project:
+| 1 | 2|
+|------|-------|
+|<img src="review/1.png" width="300">|<img src="review/2.png" width="300">|
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| 3 | 4|
+|------|-------|
+|<img src="review/3.png" width="300">|<img src="review/4.png" width="300">|
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# KIDSedu
-# Education_APP_KIDS
-# Education_APP_KIDS
-# Education_APP_KIDS
+
+| 5 |  6|
+|------|-------|
+|<img src="review/5.png" width="300">|<img src="review/6.png" width="300">|
+
+
+| 7 |  8|
+|------|-------|
+|<img src="review/7.png" width="300">|<img src="review/8.png" width="300">|
+
+   
+   ## Contact
+Created by [@Nour Nabil](https://www.linkedin.com/in/nour-nabil-615330217/) - feel free to contact me!
